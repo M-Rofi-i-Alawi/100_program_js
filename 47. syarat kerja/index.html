@@ -1,0 +1,45 @@
+<!-- Nama: Muhammad Rofi'i Alawi -->
+<!-- Kelas: X PPLG 2 -->
+<!-- Tanggal: Sabtu 24 Mei 2025 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>47. syarat pendaftaran kerja</title>
+</head>
+<body>
+    <h1>Program Pengalaman Kerja</h1>
+    <hr>
+    <form id="biodata">
+        <label>Nama:</label><br>
+        <input type="text" id="nama" required><br><br>
+
+        <label>Umur:</label><br>
+        <input type="number" id="umur" required><br><br>
+
+        <label>Pendidikan Terakhir:</label>
+        <select id="pendidikan">
+            <option value="">>---Pilih---</option>
+            <option value="SD">SD</option>
+            <option value="SMP">SMP</option>
+            <option value="SMA">SMA</option>
+            <option value="MA">MA</option>
+            <option value="SMK">SMK</option>
+            <option value="D4">D4</option>
+            <option value="S1">S1</option>
+            <option value="S2">S2</option>
+            <option value="S3">S3</option>
+        </select><br><br>
+
+        <label>pengalaman kerja tahun 2025:</label><br>
+        <input type="number" id="pengalaman" required><br><br>
+
+        <button type="button" onclick="biodata()">Kirim</button>
+    </form>
+
+    <div id="hasil"></div>
+    <script src="script.js"></script>
+</body>
+</html>

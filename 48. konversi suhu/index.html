@@ -1,0 +1,33 @@
+<!-- Nama: Muhammad Rofi'i Alawi -->
+<!-- Kelas: X PPLG 2 -->
+<!-- Tanggal: Sabtu 24 Mei 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>48. konversi suhu</title>
+</head>
+<body>
+    <h1>48. Program Konversi Suhu Sederhana</h1>
+    <hr>
+
+    <label for="suhu">Masukkan Suhu:</label><br>
+    <input type="number" id="suhu" required><br><br>
+
+    <label for="konversi">Pilih Jenis Konversi:</label><br>
+    <select id="konversi">
+        <option value="1">1. Celsius ke Fahrenheit</option>
+        <option value="2">2. Celsius ke Kelvin</option>
+        <option value="3">3. Fahrenheit ke Celsius</option>
+        <option value="4">4. Kelvin ke Celsius</option>
+        <option value="5">5. Celsius ke Reamur</option>
+        <option value="6">6. Reamur ke Celsius</option>
+    </select><br><br>
+
+    <button onclick="konversi()">Konversi</button>
+
+    <div id="hasil"></div>
+    <script src="script.js"></script>
+</body>
+</html>

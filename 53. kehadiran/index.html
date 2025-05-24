@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>53. cek kehadiran</title>
+</head>
+<body>
+    <h2>53. Program Cek Kehadiran</h2>
+
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" placeholder="Masukkan nama">
+
+    <label for="kelas">Kelas:</label>
+    <input type="text" id="kelas" placeholder="Masukkan kelas">
+
+    <label for="kehadiran">Kehadiran:</label>
+    <select id="kehadiran">
+        <option value="">-- Pilih status --</option>
+        <option value="hadir">Hadir</option>
+        <option value="izin">Izin</option>
+        <option value="sakit">Sakit</option>
+        <option value="alpha">Alpha</option>
+    </select>
+
+    <button onclick="cek()">Cek Kehadiran</button>
+
+    <div id="hasil"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

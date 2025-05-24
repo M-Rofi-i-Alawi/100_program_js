@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>60. seleksi oska</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>60. Program Seleksi OSIS/MPK</h1>
+
+    <label for="menu">Pilih jenis seleksi:</label>
+    <select id="menu">
+        <option value="osis">OSIS</option>
+        <option value="mpk">MPK</option>
+    </select><br><br>
+
+    <input type="text" id="nama" placeholder="Masukkan nama peserta"><br><br>
+    <input type="text" id="kelas" placeholder="Masukkan kelas peserta"><br><br>
+    <input type="number" id="nilai" placeholder="Masukkan nilai peserta"><br><br>
+
+    <button onclick="prosesSeleksi()">Cek Hasil Seleksi</button><br>
+
+    <div id="hasil"></div>
+    <script src="script.js"></script>
+</body>
+</html>
