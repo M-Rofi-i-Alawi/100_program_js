@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>konversi satuan volume</title>
+</head>
+<body>
+    <h1>65. konversi satuan volume</h1>
+    <label>Masukkan nilai:</label>
+    <input type="number" id="nilai" placeholder="Contoh: 1000">
+
+    <label>Dari satuan:</label>
+    <select id="dari">
+        <option value="ml">Mililiter (ml)</option>
+        <option value="l">Liter (l)</option>
+        <option value="cm3">Centimeter Kubik (cm³)</option>
+        <option value="m3">Meter Kubik (m³)</option>
+        <option value="in3">Inci Kubik (in³)</option>
+        <option value="ft3">Kaki Kubik (ft³)</option>
+        <option value="gal">Gallon (US)</option>
+    </select>
+
+    <label>Ke satuan:</label>
+    <select id="ke">
+        <option value="ml">Mililiter (ml)</option>
+        <option value="l">Liter (l)</option>
+        <option value="cm3">Centimeter Kubik (cm³)</option>
+        <option value="m3">Meter Kubik (m³)</option>
+        <option value="in3">Inci Kubik (in³)</option>
+        <option value="ft3">Kaki Kubik (ft³)</option>
+        <option value="gal">Gallon (US)</option>
+    </select>
+
+    <button onclick="konversi()">Konversi</button>
+
+    <div id="hasil"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

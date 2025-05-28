@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>konversi berat</title>
+</head>
+<body>
+    <h1>62. konversi satuan berat</h1>
+    <h2>Konversi Satuan Berat</h2>
+
+    <label>Masukkan nilai:</label><br><br>
+    <input type="number" id="nilai" placeholder="Masukkan angka"><br><br>
+
+    <label>Dari:</label><br><br>
+    <select id="dari">
+        <option value="g">Gram (g)</option>
+        <option value="kg">Kilogram (kg)</option>
+        <option value="lb">Pound (lb)</option>
+        <option value="oz">Ons (oz)</option>
+        <option value="ton">Ton (t)</option>
+    </select><br><br>
+
+    <label>Ke:</label><br><br>
+    <select id="ke">
+        <option value="g">Gram (g)</option>
+        <option value="kg">Kilogram (kg)</option>
+        <option value="lb">Pound (lb)</option>
+        <option value="oz">Ons (oz)</option>
+        <option value="ton">Ton (t)</option>
+    </select><br><br>
+
+    <button onclick="konversiBerat()">Konversi</button>
+
+    <div id="hasil"></div>
+    <script src="script.js"></script>
+</body>
+</html>

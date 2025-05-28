@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>konversi satuan luas</title>
+</head>
+<body>
+    <h1>64. konversi satuan luas</h1>
+    
+    <label>Masukkan nilai:</label><br><br>
+    <input type="number" id="nilai" placeholder="Contoh: 500"><br><br>
+
+    <label>Dari satuan:</label><br><br>
+    <select id="dari"><br><br>
+        <option value="cm2">cm²</option>
+        <option value="m2">m²</option>
+        <option value="km2">km²</option>
+    <option value="in2">in²</option>
+        <option value="ft2">ft²</option>
+        <option value="ha">hektar</option>
+        <option value="ac">acre</option>
+    </select><br><br>
+
+    <label>Ke satuan:</label><br><br>
+    <select id="ke"><br><br>
+        <option value="cm2">cm²</option>
+        <option value="m2">m²</option>
+        <option value="km2">km²</option>
+        <option value="in2">in²</option>
+        <option value="ft2">ft²</option>
+        <option value="ha">hektar</option>
+        <option value="ac">acre</option>
+     </select><br><br>
+
+    <button onclick="konversiLuas()">Konversi</button><br><br>
+
+    <div id="hasil"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
