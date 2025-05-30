@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cek kualitas barang</title>
+</head>
+<body>
+    <h2>88. Program Kualitas Laptop</h2><hr>
+    <label for="harga">Masukkan harganya (Rp):</label>
+    <input type="number" id="harga" placeholder="Contoh: 1500000" />
+
+    <label for="kualitas">Masukkan kualitasnya:</label>
+    <select id="kualitas">
+        <option value="" disabled selected>Pilih kualitas</option>
+        <option value="oke">Oke</option>
+        <option value="bagus">Bagus</option>
+        <option value="lumayan">Lumayan</option>
+    </select>
+
+    <button onclick="cek()">Cek Kualitas</button>
+
+    <div id="hasil"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
