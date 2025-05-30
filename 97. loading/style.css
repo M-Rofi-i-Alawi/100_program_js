@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.proses{
+    background-color: lightgray;
+    height: 50px;
+    width: 500px;
+}
+.proses-bar{
+    background: linear-gradient(to left, #6FE6FC, #1B56FD);
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 3px -5px #4ED7F1, 0 2px 5px lightskyblue;
+    transition: 1s ease;
+    text-shadow: 0 3px 4px black;
+}
