@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("kucing.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.box {
+    position: relative;
+    width: 380px;
+    height: 420px;
+    background: rgba(255, 255, 255, 0.203);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.box form {
+    position: absolute;
+    inset: 4px;
+    background:rgba(255, 255, 255, 0.203);
+    padding: 50px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);    
+}
+
+.box form h2 {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+  
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 1rem;
+    background: transparent;
+    border: 2px solid #F9F9F9;
+    border-radius: 8px;
+    color: #fff;
+    outline: none;
+    position: relative;
+    z-index: 10;
+  
+}
+
+.inputBox span {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #F9F9F9;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: 0.3s ease;
+    z-index: 5;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.inputBox input:focus ~ span,
+.inputBox input:valid ~ span {
+    top: -10px;
+    left: 8px;
+    font-size: 0.8rem;
+    color: #F9F9F9;
+    padding: 0 5px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.links a {
+    color: #F9F9F9;
+    font-size: 0.75em;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #F9F9F9;
+    font-weight: 700;
+}
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    padding: 9px 25px;
+    background: #f9f9f95c;
+    color: #F9F9F9;
+    font-weight: 600;
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+input[type="submit"]:active {
+    opacity: 0.8;
+}
+.inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 15px 10px;
+    padding-right: 60px; /* beri ruang untuk tombol */
+    font-size: 1rem;
+    background: transparent;
+    border: 2px solid #F9F9F9;
+    border-radius: 8px;
+    color: #fff;
+    outline: none;
+    position: relative;
+    z-index: 10;
+}
+
+.inputBox button.togglePassword {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: #F9F9F9;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 20;
+    user-select: none;
+}
+    
