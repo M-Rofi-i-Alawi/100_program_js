@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal sholat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>94. Jadwal sholat</h1>
+
+    <label for="kota" id="nama-kota">Masukkan Nama Kota:</label><br>
+    <input type="text" id="kota" required><br><br>
+    <button onclick="jadwalsholat()">Jadwal Sholat</button>
+
+    <h2 id="judulkota"></h2>
+    <ul>
+        <li>Subuh : <span id="Subuh"></span></li>
+        <li>Dzuhur : <span id="Dzuhur"></span></li>
+        <li>Ashar : <span id="Ashar"></span></li>
+        <li>Magrib : <span id="Magrib"></span></li>
+        <li>Isya : <span id="Isya"></span></li>
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

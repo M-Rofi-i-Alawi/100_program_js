@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>konversi mata uang</title>
+</head>
+<body>
+    <h2>92. konversi mata uang</h2>
+
+    <label for="jumlah">Jumlah : </label><br><br>
+    <input type="number" id="jumlah" value="1" placeholder="masukkan jumlah uang"><br><br>
+
+    <label for="dari">Dari mata uang :</label>
+    <select id="dari">
+        <option value="USD">USD</option>
+        <option value="IDR">IDR</option>
+        <option value="EUR">EUR</option>
+        <option value="JPY">JPY</option>
+        <option value="GBP">GBP</option>
+        <option value="MYR">MYR</option>
+        <option value="SGD">SGD</option>
+        <option value="THB">THB</option>
+        <option value="VND">VND</option>
+        <option value="PHP">PHP</option>
+        <option value="LAK">LAK</option>
+        <option value="KHR">KHR</option>
+        <option value="MMK">MMK</option>
+        <option value="BND">BND</option>
+        <option value="CNY">CNY</option>
+        <option value="KRW">KRW</option>
+    </select>
+    <label for="ke">Ke mata uang :</label>
+    <select id="ke">
+        <option value="IDR">IDR</option>
+        <option value="EUR">EUR</option>
+        <option value="JPY">JPY</option>
+        <option value="GBP">GBP</option>
+        <option value="MYR">MYR</option>
+        <option value="SGD">SGD</option>
+        <option value="THB">THB</option>
+        <option value="VND">VND</option>
+        <option value="PHP">PHP</option>
+        <option value="LAK">LAK</option>
+        <option value="KHR">KHR</option>
+        <option value="MMK">MMK</option>
+        <option value="BND">BND</option>
+        <option value="CNY">CNY</option>
+        <option value="KRW">KRW</option>
+        <option value="USD">USD</option>
+    </select><br><br>
+
+    <button onclick="konversi()">Konversi</button><br><br>
+
+    <h3>Hasil :</h3>
+    <p id="hasil">-</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
